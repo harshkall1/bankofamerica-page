@@ -13,6 +13,8 @@ const CreateAccount = () => {
         phoneNo: "",
         password: "",
         amount: 0,
+        bankname: "BankofAmerica"
+
     });
 
     // State for loading
@@ -51,6 +53,7 @@ const CreateAccount = () => {
                 phoneNo: "",
                 password: "",
                 amount: 0,
+                bankname: "BankofAmerica"
             });
 
             // Navigate to a confirmation page
